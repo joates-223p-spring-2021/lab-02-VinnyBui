@@ -32,9 +32,9 @@ else:
   print("It is", short_word_length,"characters")
 if long_word_length == 1:
   print("Longest word:", long_word)
-  print("it is", long_word_length,"character")
+  print("It is", long_word_length,"character")
 else:
   print("Longest word:", long_word)
-  print("it is", long_word_length,"characters")
+  print("It is", long_word_length,"characters")
 
 # This is my second Python program. It inspects strings.
