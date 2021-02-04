@@ -1,0 +1,2 @@
+language = "python3"
+run = "python str_inpect.py "This is a test string with an amazingly long word.""
