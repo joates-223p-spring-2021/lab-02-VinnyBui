@@ -7,7 +7,7 @@ joates@fullerton.edu
 """
 #read sys.argv[1]
 import sys
-sentence = input()
+sentence = sys.argv[1]
 words = sentence.split()
 #declared the initial value to start at 0
 long_word_length = len(words[0])
@@ -29,7 +29,7 @@ if short_word_length == 1:
   print("It is", short_word_length,"character")
 else:
   print("Shortest word:", short_word)
-  print("It is", short_word_length,"character")
+  print("It is", short_word_length,"characters")
 if long_word_length == 1:
   print("Longest word:", long_word)
   print("it is", long_word_length,"character")
